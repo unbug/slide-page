@@ -1,0 +1,30 @@
+{
+  "name": "slide-page",
+  "authors": [
+    "unbug <tidelgl@gmail.com>"
+  ],
+  "description": "Element providing solution to build one page slide base on polymer.",
+  "keywords": "slide, polymer, web-components",
+  "main": "slide-page.html",
+  "license": "MIT",
+  "homepage": "https://github.com/unbug/slide-page/",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#>=0.4.0 <1.0.0",
+    "polymer-test-tools": "Polymer/polymer-test-tools#>=0.4.0 <1.0.0",
+    "core-elements": "Polymer/core-elements#>=0.3.0 <1.0.0",
+    "paper-elements": "Polymer/paper-elements#>=0.3.0 <1.0.0"
+  },
+  "_release": "659487bdff",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "659487bdff74feea1fa4031e4ae291e61cf721f1"
+  },
+  "_source": "git://github.com/unbug/slide-page.git",
+  "_target": "master",
+  "_originalSource": "unbug/slide-page",
+  "_direct": true
+}

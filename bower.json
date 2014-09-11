@@ -1,0 +1,7 @@
+{
+  "name": "slide-page#gh-pages",
+  "private": true,
+  "dependencies": {
+    "slide-page": "unbug/slide-page#master"
+  }
+}
