@@ -4,7 +4,9 @@ Element providing solution to build one page slide base on polymer.
 
 ## Getting Started
 
-Just `import` `slide-page.html` and put some `<section>` elements as pages in it:
+Install with `bower install slide-page --save`
+
+Then just `import` `slide-page.html` and put some `<section>` elements as pages in it:
 
 ```html
 	 <slide-page>
