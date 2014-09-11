@@ -14,4 +14,4 @@ Just `import` `slide-page.html` and put some `<section>` elements as pages in it
 	</slide-page>
 ```
 
-Please clone the repo to see the demo page.
+Please clone the repo to see the [demo page](http://unbug.github.io/slide-page/).
