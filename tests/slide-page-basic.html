@@ -11,35 +11,35 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <title>seed-element</title>
+  <title>slide-page</title>
 
   <script src="../../platform/platform.js"></script>
   <link rel="import" href="../../polymer-test-tools/tools.html">
   <script src="../../polymer-test-tools/htmltest.js"></script>
   
   <!-- Step 1: import the element to test -->
-  <link rel="import" href="../seed-element.html">
+  <link rel="import" href="../slide-page.html">
 
 </head>
 <body>
 
-  <seed-element></seed-element>
+  <slide-page></slide-page>
 
   <script>
 
     document.addEventListener('polymer-ready', function() {
       // Test a property
-      var myEl = document.querySelector('seed-element');
+      var myEl = document.querySelector('slide-page');
       assert.equal(myEl.author, 'Dimitri Glazkov');
 
       // Test a method
       var hello = myEl.sayHello();
-      assert.equal(hello, 'seed-element says, Hello World!');
+      assert.equal(hello, 'slide-page says, Hello World!');
       var greetings = myEl.sayHello('greetings Earthlings');
-      assert.equal(greetings, 'seed-element says, greetings Earthlings');
+      assert.equal(greetings, 'slide-page says, greetings Earthlings');
 
       // Test an event
-      myEl.addEventListener('seed-element-lasers-success', function(event) {
+      myEl.addEventListener('slide-page-lasers-success', function(event) {
         assert.equal(event.detail.sound, 'Pew pew pew!');
         // IMPORTANT:
         // Make sure to call done() at the end of every test suite!
