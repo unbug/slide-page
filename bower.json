@@ -5,7 +5,7 @@
     "unbug <tidelgl@gmail.com>"
   ],
   "description": "Element providing solution to build one page slide base on polymer.",
-  "keywords": "slide, polymer, web-components",
+  "keywords": ["slide", "polymer", "web-components"],
   "main": "slide-page.html",
   "license": "MIT",
   "homepage": "https://github.com/unbug/slide-page/",
